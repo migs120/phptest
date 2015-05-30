@@ -58,6 +58,7 @@ return array(
 	'DB_PASS' => '12345678',
 	'DB_PORT' => '3306',
 	'DB_CHARSET' => 'utf8',
+  //test ignore
 	/**
 	 * Configuration for: Additional login providers: Facebook
 	 * CURRENTLY REMOVED (as Facebook has removed support for the used API version).
