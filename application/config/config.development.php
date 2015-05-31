@@ -1,5 +1,5 @@
 <?php
-
+require '../hidden/pass.php';
 /**
  * Configuration for DEVELOPMENT environment
  * To create another configuration set just copy this file to config.production.php etc. You get the idea :)
@@ -54,8 +54,8 @@ return array(
 	'DB_TYPE' => 'mysql',
 	'DB_HOST' => '127.0.0.1',
 	'DB_NAME' => 'huge',
-	'DB_USER' => 'root',
-	'DB_PASS' => '12345678',
+	'DB_USER' => $db_user,
+	'DB_PASS' => $db_pass,
 	'DB_PORT' => '3306',
 	'DB_CHARSET' => 'utf8',
   //test ignore

@@ -11,7 +11,7 @@
     <div class="wrapper">
 
         <!-- logo -->
-        <div class="logo"></div>
+<!--         <div class="logo"></div> -->
 
         <!-- navigation -->
         <ul class="navigation">

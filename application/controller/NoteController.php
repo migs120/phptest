@@ -1,4 +1,7 @@
 <?php
+require '../application/core/Auth.php';
+require '../application/model/NoteModel.php';
+require '../application/core/DatabaseFactory.php';
 
 /**
  * The note controller: Just an example of simple create, read, update and delete (CRUD) actions.

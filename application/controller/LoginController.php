@@ -3,7 +3,9 @@
 
 <?php
 require '../application/model/LoginModel.php';
-// goes up and must start from folder then to file
+require '../application/core/Redirect.php';
+require '../application/core/Auth.php';
+  // goes up and must start from folder then to file
 /**
  * LoginController
  * Controls everything that is authentication-related
