@@ -1,5 +1,5 @@
 <?php
-
+require '../hidden/keys.php';
 /**
  * Configuration for DEVELOPMENT environment
  * To create another configuration set just copy this file to config.production.php etc. You get the idea :)
@@ -54,8 +54,8 @@ return array(
 	'DB_TYPE' => 'mysql',
 	'DB_HOST' => '127.0.0.1',
 	'DB_NAME' => 'huge',
-	'DB_USER' => '',
-	'DB_PASS' => '',
+	'DB_USER' => $db_user,
+	'DB_PASS' => $db_pass,
 	'DB_PORT' => '3306',
 	'DB_CHARSET' => 'utf8',
 	/**
@@ -109,8 +109,8 @@ return array(
 	'EMAIL_USE_SMTP' => true,
 	'EMAIL_SMTP_HOST' => 'smtp.sendgrid.net',
 	'EMAIL_SMTP_AUTH' => true,
-	'EMAIL_SMTP_USERNAME' => '',
-	'EMAIL_SMTP_PASSWORD' => '',
+	'EMAIL_SMTP_USERNAME' => $mail_user,
+	'EMAIL_SMTP_PASSWORD' => $mail_pass,
 	'EMAIL_SMTP_PORT' => 465,
 	'EMAIL_SMTP_ENCRYPTION' => 'ssl',
 	/**
