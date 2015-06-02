@@ -1,6 +1,4 @@
 <?php
-require '../application/core/DatabaseFactory.php';
-require_once 'AvatarModel.php';
 
 /**
  * UserModel

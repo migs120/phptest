@@ -1,5 +1,4 @@
 <?php
-require '../application/model/UserModel.php';
 
 class ProfileController extends Controller
 {

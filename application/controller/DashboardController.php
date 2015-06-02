@@ -1,5 +1,4 @@
 <?php
-require '../application/core/Auth.php';
 
 /**
  * This controller shows an area that's only visible for logged in users (because of Auth::checkAuthentication(); in line 16)

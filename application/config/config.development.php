@@ -1,5 +1,5 @@
 <?php
-require '../hidden/pass.php';
+
 /**
  * Configuration for DEVELOPMENT environment
  * To create another configuration set just copy this file to config.production.php etc. You get the idea :)
@@ -54,11 +54,10 @@ return array(
 	'DB_TYPE' => 'mysql',
 	'DB_HOST' => '127.0.0.1',
 	'DB_NAME' => 'huge',
-	'DB_USER' => $db_user,
-	'DB_PASS' => $db_pass,
+	'DB_USER' => '',
+	'DB_PASS' => '',
 	'DB_PORT' => '3306',
 	'DB_CHARSET' => 'utf8',
-  //test ignore
 	/**
 	 * Configuration for: Additional login providers: Facebook
 	 * CURRENTLY REMOVED (as Facebook has removed support for the used API version).
@@ -107,11 +106,11 @@ return array(
 	 * EMAIL_SMTP_AUTH: leave this true unless your SMTP service does not need authentication
 	 */
 	'EMAIL_USED_MAILER' => 'phpmailer',
-	'EMAIL_USE_SMTP' => false,
-	'EMAIL_SMTP_HOST' => 'yourhost',
+	'EMAIL_USE_SMTP' => true,
+	'EMAIL_SMTP_HOST' => 'smtp.sendgrid.net',
 	'EMAIL_SMTP_AUTH' => true,
-	'EMAIL_SMTP_USERNAME' => 'yourusername',
-	'EMAIL_SMTP_PASSWORD' => 'yourpassword',
+	'EMAIL_SMTP_USERNAME' => '',
+	'EMAIL_SMTP_PASSWORD' => '',
 	'EMAIL_SMTP_PORT' => 465,
 	'EMAIL_SMTP_ENCRYPTION' => 'ssl',
 	/**

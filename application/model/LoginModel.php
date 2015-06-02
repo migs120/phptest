@@ -1,7 +1,5 @@
 <?php
-require 'UserModel.php';
-require '../application/core/Text.php';
-require_once '../application/model/AvatarModel.php';
+
 /**
  * LoginModel
  *

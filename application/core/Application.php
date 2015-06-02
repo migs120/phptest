@@ -1,10 +1,5 @@
 <?php
-require 'Request.php';
-require 'Config.php';
-require 'Environment.php';
-require 'Controller.php';
-require 'Session.php';
-require 'View.php';
+
 /**
  * Class Application
  * The heart of the application
